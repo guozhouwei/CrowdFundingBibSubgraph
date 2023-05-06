@@ -1,0 +1,6 @@
+type Funder @entity {
+  "id campaignId"
+  id: ID!
+  addr: Bytes!
+  amount: BigInt!
+}
